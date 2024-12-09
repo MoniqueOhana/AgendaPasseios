@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|c:\\users\\monique\\desktop\\agenda\\agendapasseios\\agendapasseios\\models\\passeios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|solutionrelative:agendapasseios\\models\\passeios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|c:\\users\\monique\\desktop\\agenda\\agendapasseios\\agendapasseios\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|solutionrelative:agendapasseios\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|c:\\users\\monique\\desktop\\agenda\\agendapasseios\\agendapasseios\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|solutionrelative:agendapasseios\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,24 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Passeios.cs",
+              "DocumentMoniker": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Models\\Passeios.cs",
+              "RelativeDocumentMoniker": "AgendaPasseios\\Models\\Passeios.cs",
+              "ToolTip": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Models\\Passeios.cs",
+              "RelativeToolTip": "AgendaPasseios\\Models\\Passeios.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:04:42.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AgendaPasseios\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AgendaPasseios\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:03:24.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "AgendaPasseios\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Controllers\\HomeController.cs",
               "RelativeToolTip": "AgendaPasseios\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T18:16:07.197Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

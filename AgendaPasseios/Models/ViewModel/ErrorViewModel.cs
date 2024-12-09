@@ -1,4 +1,4 @@
-namespace AgendaPasseios.Models
+namespace AgendaPasseios.Models.ViewModel
 {
     public class ErrorViewModel
     {
