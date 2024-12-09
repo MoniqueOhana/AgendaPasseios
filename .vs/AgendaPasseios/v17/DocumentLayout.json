@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|c:\\users\\monique\\desktop\\agenda\\agendapasseios\\agendapasseios\\models\\passeios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|solutionrelative:agendapasseios\\models\\passeios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|c:\\users\\monique\\desktop\\agenda\\agendapasseios\\agendapasseios\\views\\passeios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|solutionrelative:agendapasseios\\views\\passeios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|c:\\users\\monique\\desktop\\agenda\\agendapasseios\\agendapasseios\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|solutionrelative:agendapasseios\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|c:\\users\\monique\\desktop\\agenda\\agendapasseios\\agendapasseios\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|solutionrelative:agendapasseios\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|c:\\users\\monique\\desktop\\agenda\\agendapasseios\\agendapasseios\\controllers\\passeioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|solutionrelative:agendapasseios\\controllers\\passeioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|c:\\users\\monique\\desktop\\agenda\\agendapasseios\\agendapasseios\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|solutionrelative:agendapasseios\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|c:\\users\\monique\\desktop\\agenda\\agendapasseios\\agendapasseios\\models\\passeio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|solutionrelative:agendapasseios\\models\\passeio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|c:\\users\\monique\\desktop\\agenda\\agendapasseios\\agendapasseios\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B4BBEA1-9996-4025-81C9-B0C230227FDC}|AgendaPasseios\\AgendaPasseios.csproj|solutionrelative:agendapasseios\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,20 +42,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AgendaPasseios\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AgendaPasseios\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T20:03:48.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Passeios.cs",
-              "DocumentMoniker": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Models\\Passeios.cs",
-              "RelativeDocumentMoniker": "AgendaPasseios\\Models\\Passeios.cs",
-              "ToolTip": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Models\\Passeios.cs",
-              "RelativeToolTip": "AgendaPasseios\\Models\\Passeios.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBcAAAAFAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Views\\Passeios\\Index.cshtml",
+              "RelativeDocumentMoniker": "AgendaPasseios\\Views\\Passeios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Views\\Passeios\\Index.cshtml",
+              "RelativeToolTip": "AgendaPasseios\\Views\\Passeios\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:41:15.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PasseiosController.cs",
+              "DocumentMoniker": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Controllers\\PasseiosController.cs",
+              "RelativeDocumentMoniker": "AgendaPasseios\\Controllers\\PasseiosController.cs",
+              "ToolTip": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Controllers\\PasseiosController.cs",
+              "RelativeToolTip": "AgendaPasseios\\Controllers\\PasseiosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:19:31.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Passeio.cs",
+              "DocumentMoniker": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Models\\Passeio.cs",
+              "RelativeDocumentMoniker": "AgendaPasseios\\Models\\Passeio.cs",
+              "ToolTip": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Models\\Passeio.cs",
+              "RelativeToolTip": "AgendaPasseios\\Models\\Passeio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T19:04:42.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "AgendaPasseios\\Views\\Home\\Index.cshtml",
@@ -51,18 +102,17 @@
               "RelativeToolTip": "AgendaPasseios\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T19:03:24.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T19:03:24.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "AgendaPasseios\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\Controllers\\HomeController.cs",
               "RelativeToolTip": "AgendaPasseios\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T18:16:07.197Z",
               "EditorCaption": ""
