@@ -1,4 +1,5 @@
 using AgendaPasseios.Data;
+using AgendaPasseios.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace AgendaPasseios
@@ -10,6 +11,7 @@ public class Program
 
 
             var builder = WebApplication.CreateBuilder(args);
+
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -28,6 +30,9 @@ public class Program
                         )
                 );
             });
+
+            builder.Services.AddScoped<PasseioService>();
+
 
             var app = builder.Build();
 
