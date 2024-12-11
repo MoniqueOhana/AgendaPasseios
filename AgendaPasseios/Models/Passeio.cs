@@ -1,4 +1,5 @@
-﻿namespace AgendaPasseios.Models
+﻿
+namespace AgendaPasseios.Models
 {
     public class Passeio
     {
@@ -21,5 +22,7 @@
             Valor = valor;
             Empresa = empresa;
         }
+
+        
     }
 }

@@ -1,6 +1,9 @@
-﻿using AgendaPasseios.Data;
+﻿using AgendaPasseios.Controllers;
+using AgendaPasseios.Data;
 using AgendaPasseios.Models;
-using Humanizer.Localisation;
+using AgendaPasseios.Services.Exceptions;
+using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 namespace AgendaPasseios.Services
 {
@@ -13,15 +16,33 @@ namespace AgendaPasseios.Services
             _context = context;
         }
 
-        public List<Passeio> FindAll()
+        public async Task<List<Passeio>> FindAllAsync()
         {
-            return _context.Passeios.ToList();
+            return await _context.Passeios.ToListAsync();
         }
-        public void Insert(Passeio passeio)
+        public async Task InsertAsync(Passeio passeio)
         {
             _context.Add(passeio);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
 
+        public async Task<Passeio> FindByIdAsync(int id)
+        {
+            return await _context.Passeios.FindAsync(id);
+        }
+
+        public async Task RemoveAsync(int id)
+        {
+            try
+            {
+                Passeio passeio = await _context.Passeios.FindAsync(id);
+                _context.Passeios.Remove(passeio);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException ex)
+            {
+                throw new IntegrityException(ex.Message);
+            }
+        }
     }
 }

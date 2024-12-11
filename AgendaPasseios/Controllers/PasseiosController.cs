@@ -1,8 +1,9 @@
 ﻿using AgendaPasseios.Data;
 using AgendaPasseios.Models;
 using AgendaPasseios.Services;
-using Humanizer.Localisation;
+using AgendaPasseios.Services.Exceptions;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace AgendaPasseios.Controllers
 {
@@ -15,10 +16,9 @@ namespace AgendaPasseios.Controllers
             _service = service;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            List<Passeio> passeios = _service.FindAll();
-            return View(passeios);
+            return View(await _service.FindAllAsync());
         }
 
         public IActionResult Create()
@@ -29,18 +29,56 @@ namespace AgendaPasseios.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
 
-        public IActionResult Create(Passeio passeio)
+        public async Task<IActionResult> Create(Passeio passeio)
         {
             if (!ModelState.IsValid)
             {
                 return View();
             }
 
-            _service.Insert(passeio);
+            await _service.InsertAsync(passeio);
 
             return RedirectToAction(nameof(Index));
 
         }
 
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id is null)
+            {
+                return RedirectToAction(nameof(Error), new { message = "Id não fornecido" });
+            }
+            Passeio passeio = await _service.FindByIdAsync(id.Value);
+            if (passeio is null)
+            {
+                return RedirectToAction(nameof(Error), new { message = "Id não encontrado" });
+
+            }
+            return View(passeio);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                await _service.RemoveAsync(id);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (IntegrityException ex)
+            {
+                return RedirectToAction(nameof(Error), new { message = ex.Message });
+            }
+        }
+        public IActionResult Error(string message)
+        {
+            var viewModel = new ErrorViewModel
+            {
+                Message = message,
+                RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
+            };
+            return View(viewModel);
+                
+        }
     }
 }
