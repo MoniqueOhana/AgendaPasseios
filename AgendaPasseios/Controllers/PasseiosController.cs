@@ -1,26 +1,21 @@
-﻿using AgendaPasseios.Models;
+﻿using AgendaPasseios.Data;
+using AgendaPasseios.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AgendaPasseios.Controllers
 {
     public class PasseiosController : Controller
     {
+        private readonly AgendaPasseiosContext _context;
+
+        public PasseiosController(AgendaPasseiosContext context)
+        {
+            _context = context;
+        }
+
         public IActionResult Index()
         {
-            List<Passeio> passeios = new List<Passeio>
-            {
-                new Passeio
-                {
-                    Id = 1,
-                    Nome = "Passeio das águas",
-                    Destino = "Natal",
-                    Valor = 50.00,
-                    Empresa = "Brisa e Mar Turismo"
-
-                }
-
-            }; 
-
+            List<Passeio> passeios = _context.Passeios.ToList();
             return View(passeios);
         }
     }
