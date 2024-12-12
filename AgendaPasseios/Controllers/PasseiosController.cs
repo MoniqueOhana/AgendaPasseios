@@ -110,6 +110,24 @@ namespace AgendaPasseios.Controllers
                 return RedirectToAction(nameof(Error), new { message = ex.Message });
             }
         }
+
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id is null)
+            {
+                return RedirectToAction(nameof(Error), new { message = "Id não fornecido" });
+            }
+            Passeio passeio = await _service.FindByIdAsync(id.Value);
+            if (passeio is null)
+            {
+                return RedirectToAction(nameof(Error), new { message = "Id não encontrado" });
+            }
+
+            return View(passeio);
+        }
+
+
+
         public IActionResult Error(string message)
         {
             var viewModel = new ErrorViewModel
