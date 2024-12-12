@@ -240,4 +240,3 @@ C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\M
 C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\MySqlConnector.dll
 C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

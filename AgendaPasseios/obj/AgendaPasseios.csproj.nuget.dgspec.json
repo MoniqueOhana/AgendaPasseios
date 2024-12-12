@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\AgendaPasseios.csproj": {}
+    "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\agendapasseios\\AgendaPasseios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\AgendaPasseios.csproj": {
+    "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\agendapasseios\\AgendaPasseios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\AgendaPasseios.csproj",
+        "projectUniqueName": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\agendapasseios\\AgendaPasseios.csproj",
         "projectName": "AgendaPasseios",
-        "projectPath": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\AgendaPasseios.csproj",
+        "projectPath": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\agendapasseios\\AgendaPasseios.csproj",
         "packagesPath": "C:\\Users\\Monique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\AgendaPasseios\\obj\\",
+        "outputPath": "C:\\Users\\Monique\\Desktop\\Agenda\\AgendaPasseios\\agendapasseios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
