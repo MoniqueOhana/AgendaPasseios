@@ -27,7 +27,6 @@ C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\obj\Debug\net8.0\s
 C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AgendaPasseios.props
 C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AgendaPasseios.props
 C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\obj\Debug\net8.0\AgendaPasseios.dll
 C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\obj\Debug\net8.0\refint\AgendaPasseios.dll
 C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\obj\Debug\net8.0\AgendaPasseios.pdb
@@ -230,3 +229,15 @@ C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\r
 C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\obj\Debug\net8.0\AgendaPasseios.csproj.AssemblyReference.cache
 C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\obj\Debug\net8.0\AgendaPa.2F8B7538.Up2Date
+C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\libman.json
+C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Monique\Desktop\Agenda\AgendaPasseios\AgendaPasseios\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

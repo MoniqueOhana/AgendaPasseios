@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgendaPasseios")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f9cc2fc37b829de4ef1006afc6974fb786007de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecd281e8e7e65adf6b75f8e3e765b86c7194decc")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgendaPasseios")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgendaPasseios")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
