@@ -28,6 +28,11 @@ namespace AgendaPasseios.Services
             Passeio p8 = new Passeio(8, "Mergulho na Lagoa", "Florianópolis", 100, "AquaDive Floripa");
             Passeio p9 = new Passeio(9, "Buggie nas Dunas", "Natal", 230, "Brisa e Mar Turismo");
             Passeio p10 = new Passeio(10, "Luau no Rosa Norte", "Imbituba", 80, "Palhoça Tour");
+
+            await _context.Passeios.AddRangeAsync(
+    p1, p2, p3, p4, p5, p6, p7, p8, p9, p10
+);
+            await _context.SaveChangesAsync();
         }
     }
 }
